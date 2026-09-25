@@ -1,0 +1,24 @@
+Package: spbootstrap
+Type: Package
+Title: Spatial Block Bootstrap Samples
+Version: 0.0.0.9000
+Authors@R: person("Nathan", "Wikle", email = "nbwikle@gmail.com",
+    role = c("aut", "cre"))
+Description: Generates spatial block bootstrap and subsampling replicates for
+    gridded (lattice) data, point process data, and irregular sf point data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    grDevices,
+    magrittr,
+    methods,
+    sf,
+    stats,
+    utils
+Suggests:
+    mgcv,
+    raster,
+    sp,
+    terra,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
